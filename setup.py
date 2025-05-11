@@ -4,14 +4,14 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name="mkpdf",
-    version="0.1.0",
+    name="pdfforge",
+    version="1.0.0",
     author="tikisan",
     author_email="s2501082@sendai-nct.jp",
     description="様々な形式の画像をPDFに変換するPythonライブラリ",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/tikipiya/mkpdf",
+    url="https://github.com/tikipiya/pdfforge",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 4 - Beta",
@@ -33,7 +33,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "mkpdf=mkpdf.cli:main",
+            "pdfforge=mkpdf.cli:main",
         ],
     },
 ) 

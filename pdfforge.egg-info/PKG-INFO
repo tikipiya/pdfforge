@@ -1,3 +1,37 @@
+Metadata-Version: 2.4
+Name: pdfforge
+Version: 1.0.0
+Summary: 様々な形式の画像をPDFに変換するPythonライブラリ
+Home-page: https://github.com/tikipiya/mkpdf
+Author: tikisan
+Author-email: s2501082@sendai-nct.jp
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Pillow>=10.2.0
+Requires-Dist: reportlab>=4.1.0
+Requires-Dist: click>=8.0.0
+Requires-Dist: tqdm>=4.65.0
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
 # Image to PDF Converter (pdfforge)
 
 様々な形式の画像を高品質なPDFに変換するPythonライブラリです。バッチ変換やメタデータ付与、コマンドライン操作、設定ファイルによるカスタマイズなど、実用的な機能を多数搭載しています。
